@@ -26,7 +26,6 @@
     </div>
   </header>
 
-  <body>
     <div class="license_pos">
       <div class="license lic_pos_1">
         <img id="img" src="css/bg.png" width="100%" height="100%">
@@ -35,36 +34,24 @@
         <input id="job" type="text" name="" value="">
       </div>
     </div>
-    <script>
-      function output_name_function() {
-        var name = $("#name_input").val();
-        console.log(name);
-        $("#name").val(name);
-      }
 
-      function output_age_fuction() {
-        var age = $("#age_input").val();
-        console.log(age);
-        $("#age").val(age);
-
-        function output_graduate_fuction() {
-          var graduate = $("#")
-        }
-    </script>
     <form class="" action="index.html" method="post">
       <div class="text_pos">
         <div class="main_text">
           <span>당신은 <br>
-            <span id="who_text">누구</span>인가요?</span>
+            <span id="who_text">어디까지</span>배워봤나요?</span>
         </div>
-        <div class="input_div">
-          <div class="name">
-            <input id="name_input" onkeyup="output_name_function();" class="name_input" type="text" name="" placeholder="이름을 입력해주세요!">
-          </div>
-          <div class="age">
-            <input id="age_input" onkeyup="output_age_function();" class="age_input" type="text" name="" placeholder="죄송하지만 나이가…?">
-            <span id="age_sub">나이는 숫자만 입력할 수 있어요!</span>
-          </div>
+        <div class="slider">
+          <input id="graduate" min="1" max="7" type="range" name="" value="1">
+        </div>
+        <div class="graduate_text">
+          <span class="slider_cont sl_null">무학력</span>
+          <span class="slider_cont sl_elem">초등학교 졸업</span>
+          <span class="slider_cont sl_midd">중학교 졸업</span>
+          <span class="slider_cont sl_high">고등학교 졸업</span>
+          <span class="slider_cont sl_hak">학사</span>
+          <span class="slider_cont sl_phd">석사</span>
+          <span class="slider_cont sl_doc">박사</span>
         </div>
         <div class="confirm">
           <input id="confirm_btn" type="submit" value="내 학생증 만들기">

@@ -87,7 +87,7 @@
   height: 100%;
 }
 
-.license {
+.license{
   position: absolute;
   height: 516px;
   width: 324px;
@@ -110,6 +110,7 @@
   left: 55%;
   transform: translateX(-50%);
   top: 230px;
+
 }
 
 .main_text {
@@ -159,11 +160,11 @@
   background-color: #f9fafb;
 }
 
-::placeholder {
-  color: #d7d8d9;
+::placeholder{
+  color : #d7d8d9;
 }
 
-#age_sub {
+#age_sub{
   font-family: SpoqaHanSans;
   font-size: 16px;
   line-height: 1;
@@ -219,7 +220,7 @@
   color: #d7d8d9;
 }
 
-.graduate {
+.graduate{
   font-family: SpoqaHanSans;
   font-size: 16px;
   line-height: 1;
@@ -228,7 +229,7 @@
   margin-top: 20px;
 }
 
-.item {
+.item{
   text-align: center;
   padding-top: 24px;
   width: 110px;
@@ -239,100 +240,25 @@
   display: inline-block;
 }
 
-#confirm_btn {
+#confirm_btn{
   margin-top: 86px;
-  font-family: SpoqaHanSans;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: -0.45px;
-  text-align: center;
-  color: #ffffff;
-  width: 600px;
-  height: 64px;
-  border-radius: 32px;
-  background-color: #eb124d;
+ font-family: SpoqaHanSans;
+ font-size: 16px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1;
+ letter-spacing: -0.45px;
+ text-align: center;
+ color: #ffffff;
+ width: 600px;
+ height: 64px;
+ border-radius: 32px;
+ background-color: #eb124d;
 }
 
-.slider {
-  margin-top: 57px;
-}
-
-#graduate {
-  -webkit-appearance: none;
+#graudate_input{
   width: 560px;
   height: 10px;
-  margin: 0 20px;
-  border-radius: 5px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-#graduate::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #FFF;
-  cursor: pointer;
-  box-shadow: 0px 2px 4px #0009;
-}
-
-#graduate::-moz-range-thumb {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;  cursor: pointer;
-}
-
-.graduate_text {
-  position: relative;
-  width: 530px;
-  margin: 0 auto;
-  margin-top: 18px;
-}
-
-.slider_cont {
-  white-space: nowrap;
-  position: absolute;
-  font-family: SpoqaHanSans;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: -0.34px;
-  text-align: center;
-  color: #a4a5a6;
-  transform: translateX(-50%);
-}
-
-.sl_null {
-  left: 0%;
-}
-
-.sl_elem {
-  left: 16.66%;
-}
-
-.sl_midd {
-  left: 33.33%;
-}
-
-.sl_high {
-  left: 50%;
-}
-
-.sl_hak {
-  left: 66.66%;
-}
-
-.sl_phd {
-  left: 83.33%;
-}
-
-.sl_doc {
-  left: 100%;
+  background-color: #f0f1f2;
 }
