@@ -1,0 +1,63 @@
+.step {
+  margin-top: 143px;
+  margin-left: 56px;
+  float: left;
+}
+
+.step2-3 {
+  width: 80px;
+  height: 16px;
+  font-family: CenturyGothicPro;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.05px;
+  color: #999999;
+  margin-bottom: 4px;
+}
+
+.main_tell {
+  font-family: SpoqaHanSans;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.13px;
+  color: #444444;
+  display: inline;
+  float: left;
+  margin-right: 88px;
+}
+
+.sub_tell {
+  font-family: SpoqaHanSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: -0.05px;
+  color: #999999;
+}
+
+#inform {
+  margin-left: 300px;
+  margin-top: 24px;
+}
+
+#graduate {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+  border: solid 2px #f2f2f2;
+  background-color: #fafafa;
+}
+
+#confirm {
+  border: 0;
+  width: 80px;
+  height: 56px;
+  border-radius: 4px;
+  color: #cccccc;
+  background-color: #fafafa;
+}

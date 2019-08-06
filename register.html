@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Understud.</title>
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ckq2yxb.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+</head>
+
+<header id="header" class="header background_white">
+  <div class="wrapper">
+    <h1 class="header_logo">
+      <a href="welcome.html"><span class="header_color">UNDER</span>STUD<span class="header_color">.</span></a>
+    </h1>
+    <nav class="header_nav">
+      <li class="nav_item"><a href="#">about us</a></li>
+      <li class="nav_item"><a href="#">sign in</a></li>
+      <li class="nav_item nav_sign"><a href="register_1.html">sign up</a></li>
+    </nav>
+  </div>
+</header>
+
+<body>
+
+  <div id="content">
+    <div id="selector" class="welcome">
+      <img class="hero_image" src="picture.png" alt="hero image" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="explain">
+    <div class="main">
+      <span id="who_text">당신은<br>
+        누구인가요?</span>
+    </div>
+    <div class="sub">
+      <span id="sub_text">무언가를 시작하기에 앞서, 자신을 아는 것 만큼이나 중요한 것은 없습니다.<br>
+        내가 무엇을 좋아하고, 어떻게 살아왔는지. 자세하게 들여다 볼 때,<br>
+        비로소 자신이 걷고자 하는 길을 찾아낼 수 있을 것 입니다.</span>
+    </div>
+    <div class="btn_regnext">
+      <button id="my_license" type="button" name="button" onclick="eraseLicense();">내 학생증 만들기</button>
+    </div>
+  </div>
+
+  <div class="license_pos">
+    <div id="license" class="license lic_pos_1">
+      <img id="img" src="css/bg.png" width="100%" height="100%">
+      <input id="name" type="text" name="" value="이태윤">
+      <input id="class" type="text" name="" value="고등학교 졸업 · 18세">
+      <input id="job" type="text" name="" value="디자인    UX 디자인">
+    </div>
+  </div>
+  <script>
+    window.onload = () => {
+      document.querySelector(".btn_regnext").addEventListener("click", () => {
+        document.querySelector("#license").classList.remove("lic_pos_1");
+        document.querySelector("#license").classList.add("lic_pos_2");
+        document.querySelector("#content").classList.add("disable");
+        setTimeout(function() {
+          location.replace("register2.html");
+        }, 1000);
+      })
+    }
+  </script>
+  <script>
+    function eraseLicense() {
+      var nameText = document.getElementById('name');
+      var classText = document.getElementById('class');
+      var jobText = document.getElementById('job');
+      nameText.value = '';
+      classText.value = '';
+      jobText.value = '';
+    }
+  </script>
+</body>
+
+</html>

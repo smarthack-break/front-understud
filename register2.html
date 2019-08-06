@@ -3,53 +3,67 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Understud</title>
+  <title>Understud.</title>
   <link rel="stylesheet" href="css/register2.css">
-  <link rel="stylesheet" href="css/welcome.css">
-  <link rel="stylesheet" href="css/license.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ckq2yxb.css">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-  <nav>
-    <span id="logo">
-      <span style="color: #eb124d">UNDER</span>STUD<span style="color: #eb124d">.</span>
-    </span>
-    <div id="menu">
-      <button type="button" name="button" onkeyup="">about us</button>
-      <button type="button" name="button" onkeyup="">contact</button>
+  <header id="header" class="header background_white">
+    <div class="wrapper">
+      <h1 class="header_logo">
+        <a href="welcome.html"><span class="header_color">UNDER</span>STUD<span class="header_color">.</span></a>
+      </h1>
+      <nav class="header_nav">
+        <li class="nav_item"><a href="#">about us</a></li>
+        <li class="nav_item"><a href="#">sign in</a></li>
+        <li class="nav_item nav_sign"><a href="register_1.html">sign up</a></li>
+      </nav>
     </div>
-  </nav>
-  <div class="step">
-    <div class="step2-3">
-      <span>STEP 2<span style="color:#cccccc">-3</span></span>
-    </div>
-    <div class="main_tell">
-      <span>당신에 대해<br>
-        알려주세요</span>
-    </div>
-    <div class="sub_tell">
-      <span>무언가를 배우기 전, 자신에 대해 아는 것 또한 중요합니다 .<br>
-        Understud.가 당신만을 위한 수업을 준비하기 위해,<br>
-        당신이라는 사람에 대해 알려주세요.</span>
-    </div>
-    <div id="inform">
-      <table>
+  </header>
 
-      </table>
+  <body>
+    <div class="license_pos">
+      <div class="license lic_pos_1">
+        <img id="img" src="css/bg.png" width="100%" height="100%">
+        <input id="name" type="text" name="" value="">
+        <input id="class" type="text" name="" value="">
+        <input id="job" type="text" name="" value="">
+      </div>
     </div>
-    <div id="inform">
-      <input id="confirm" type="text" name="" value="확인">
-    </div>
-  </div>
-  <div class="license_div">
-    <div class="bg">
-    </div>
-    <div class="license">
-      <span class="top">학생증</span>
-      <span class="logo">Understud.</span>
-    </div>
-  </div>
+    <script>
 
+    function output_name_function() {
+      var name = $("#name_input").val();
+      console.log(name);
+      $("#name").val(name);
+    }
+    function output_age_fuction() {
+      var age = $("#age_input").val();
+      console.log(age);
+      $("#age").val(age);
+    }
+    </script>
+    <div class="text_pos">
+      <div class="main_text">
+        <span>당신은 <br>
+          <span id="who_text">누구</span>인가요?</span>
+      </div>
+      <div class="input_div">
+        <div class="name">
+          <input id="name_input" onkeyup="output_name_function();" class="name_input" type="text" name="" placeholder="이름을 입력해주세요!">
+        </div>
+        <div class="age">
+          <input id="age_input" onkeyup="output_age_function();" class="age_input" type="text" name="" placeholder="죄송하지만 나이가…?">
+          <span id="age_sub">나이는 숫자만 입력할 수 있어요!</span>
+        </div>
+      </div>
+    </div>
+  </body>
 </body>
 
 </html>
