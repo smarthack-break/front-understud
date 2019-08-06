@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    background-color: #f9fafb;
+}
+
+h2, h3 {
+    margin: 0px;
+}
+
+#title_container {
+    position: relative;
+    min-height: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#main_container {
+    display: grid;
+    width: 1400px;
+    /*수정바람*/
+    height: 960px;   
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.middle_container {
+    margin: 0px 10px;
+}
+
+.middle_container > * {
+    margin-bottom: 20px;
+}
+
+.topic_head {
+    position: relative;
+    height: 180px;
+    background-color: white;
+}
+
+.head_wrapper {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.head_sort {
+    color: red;
+    font-size: 16px;
+}
+
+.head_title {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.topic_tail {
+    position: relative;
+    height: 80px;
+    background-color: white;
+}
+
+.tail_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.tail_title {
+    font-size: 24px;
+}
+
+.tail_sub_title {
+    color: #727273;
+    font-size: 16px;
+}
+
