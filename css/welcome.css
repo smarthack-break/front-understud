@@ -1,98 +1,98 @@
 html, body {
   height: 100%;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  position: relative;
   width: 100%;
-  margin: 0;
+  height: 100px;
+  background-color: white;
 }
 
-body {}
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: 700;
+}
 
-.header {
-  text-align: center;
-  font-family: CenturyGothicPro;
-  font-size: 32px;
+#back_container {
+  flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 20px 20px 20px;
+}
+
+#main_container {
+  min-height: 100%;
+  background-color: #f9fafb;
+}
+
+#container {
+  position: absolute;
+  margin-left: 940px;
+  margin-top: 240px;
+}
+
+#main {
+  margin-bottom: 32px;
+}
+
+#main_text {
+  font-family: SpoqaHanSans;
+  font-size: 64px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: -0.94px;
-  color: #d7d8d9;
-}
-
-.title {
-  display: inline-block;
-  text-align: center;
-}
-
-.menu {
-  float: right;
-  display: inline-block;;
-}
-
-.menu_button {
-  background: white;
-  border: 0;
-  font-family: CenturyGothicPro;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: -0.71px;
-  text-align: right;
-  color: #d7d8d9
-}
-
-#under {
-  font-family: CenturyGothicPro;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1;
-  letter-spacing: -0.94px;
-  color: #eb124d;
-}
-
-#stud {
+  line-height: 1.13;
+  letter-spacing: -1.88px;
   color: #3f3f40;
 }
 
-.container {
-  background-color: #f9fafb;
-  position: absolute;
-  display: block;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 35px 20px 20px 20px;
+#sub {
+  margin-bottom: 48px;
 }
 
-.content{
-  margin-top: 240px;
-  margin-left: 940px;
-}
-
-.main_text{
+#sub_text {
   font-family: SpoqaHanSans;
- font-size: 64px;
- font-weight: bold;
- font-style: normal;
- font-stretch: normal;
- line-height: 1.13;
- letter-spacing: -1.88px;
- color: #3f3f40;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.47px;
+  color: #727273;
 }
 
-#time{
-  color: #eb124d;
-}
-
-.sub_text{
+#start {
+  background: #eb124d;
+  border: 0;
+  width: 230px;
+  height: 56px;
+  border-radius: 28px;
   font-family: SpoqaHanSans;
- font-size: 16px;
- font-weight: normal;
- font-style: normal;
- font-stretch: normal;
- line-height: 2;
- letter-spacing: -0.47px;
- color: #727273;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 24px;
+}
+
+#join {
+  font-family: AppleSDGothicNeo;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -0.05px;
+  text-align: center;
+  color: #666666;
+  background: white;
+  border: 0;
 }
