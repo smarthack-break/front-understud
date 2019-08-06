@@ -7,21 +7,37 @@ html, body {
   display: inline-block;
 }
 
-.title{
-  font-size: 25px;
-  margin: 5px 0px 0px 5px;
+.title {
+  width: 144px;
+  height: 28px;
+  margin-left: 60px;
+  margin-top: 45px;
+  font-family: CenturyGothicPro;
+  font-size: 28px;
   font-weight: bold;
-  font-family: sans-serif;
-  color: #EC0A4C;
+  letter-spacing: -0.09px;
+  color: #eb124d;
 }
 
 .menu {
   float: right;
-  margin-top: 5px;
-  margin-right: 5px;
 }
 
-#signup{
+.menu_btn {
+  height: 20px;
+  background: white;
+  border: 0;
+  font-family: CenturyGothicPro;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.06px;
+  text-align: right;
+  color: #d9d9d9;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+#signup {
   color: #EC0A4C;
 }
 
@@ -45,42 +61,58 @@ html, body {
   right: 0;
 }
 
-.content{
+.content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.main_text{
-  font-weight: bold;
-  font-size: 25px;
+.container{
 }
 
-.sub_text{
+.main_text {
+  font-family: SpoqaHanSans;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  color: #515151;
+}
+
+.sub_text {
+  font-family: SpoqaHanSans;
+  font-size: 16px;
   width: 600px;
-  color: #CACBCB;
+  line-height: 1.75;
+  letter-spacing: -0.05px;
+  color: #afafaf;
 }
 
-.menu_btn {
-  border: 0;
-  font-weight: bold;
-  background: white;
-  margin: 3px;
-  padding: 0;
-}
-
-.start_btn{
-  color: white;
+.start_btn {
   border: 0;
   border-radius: 50px;
   height: 50px;
   width: 200px;
   background: #EC0A4C;
+  font-family: SpoqaHanSans;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.enter_button{
+.enter_button {
   margin-left: 10px;
   background: #FAFAFA;
   border: 0;
+  font-family: AppleSDGothicNeo;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: -0.05px;
+  text-align: center;
+  color: #666666;
 }
