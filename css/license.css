@@ -1,6 +1,7 @@
 .license_div{
-  margin-left: 850px;
-  margin-top: 850px;
+  position: absolute;
+  left: 1206px;
+  top: 224px;
 }
 
 .license, .bg{

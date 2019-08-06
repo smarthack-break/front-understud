@@ -1,52 +1,7 @@
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
-
-.title, .start, .join {
-  display: inline-block;
-}
-
-.title {
-  width: 144px;
-  height: 28px;
-  margin-left: 60px;
-  margin-top: 45px;
-  font-family: CenturyGothicPro;
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: -0.09px;
-  color: #eb124d;
-}
-
-.menu {
-  float: right;
-}
-
-.menu_btn {
-  height: 20px;
-  background: white;
-  border: 0;
-  font-family: CenturyGothicPro;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: -0.06px;
-  text-align: right;
-  color: #d9d9d9;
-  margin-top: 50px;
-  margin-right: 20px;
-}
-
-#signup {
-  color: #EC0A4C;
-}
-
 .step {
   margin-top: 143px;
   margin-left: 56px;
-}
-
-.step{
+  float: left;
 }
 
 .step1-3 {
@@ -55,15 +10,12 @@ html, body {
   font-family: CenturyGothicPro;
   font-size: 16px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
   letter-spacing: -0.05px;
   color: #999999;
+  margin-bottom: 4px;
 }
 
-.tell_me {
-  display: block;
+.main_tell {
   font-family: SpoqaHanSans;
   font-size: 40px;
   font-weight: bold;
@@ -72,11 +24,12 @@ html, body {
   line-height: 1.2;
   letter-spacing: -0.13px;
   color: #444444;
+  display: inline;
+  float: left;
+  margin-right: 88px;
 }
 
-.sub_text {
-  width: 506px;
-  height: 84px;
+.sub_tell {
   font-family: SpoqaHanSans;
   font-size: 16px;
   font-weight: normal;
@@ -85,4 +38,35 @@ html, body {
   line-height: 1.75;
   letter-spacing: -0.05px;
   color: #999999;
+}
+
+#inform{
+  margin-left: 300px;
+  margin-top: 24px;
+}
+
+#name, #age #confirm{
+  font-family: AppleSDGothicNeo;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.05px;
+  color: #cccccc;
+}
+
+#name {
+  width: 328px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  border: 0;
+  margin-right: 8px;
+}
+
+#age, #confirm {
+  border: 0;
+  width: 80px;
+  height: 56px;
+  border-radius: 4px;
+  color: #cccccc;
+  background-color: #fafafa;
 }
