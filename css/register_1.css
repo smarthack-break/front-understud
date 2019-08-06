@@ -78,41 +78,22 @@ body {
 }
 
 .content .welcome .hero_image {
-  position: absolute;
+  position: fixed;
   top: 136px;
-  left: 50%;
+  left: 540px;
   transform: translateX(-100%);
   width: 900px;
   height: 884px;
   object-fit: contain;
-  opacity: 1;
-  transition: 0.7s;
+  opacity: 0.2;
 }
 
-.welcome .main {
+.main {
   position: absolute;
   top: 342px;
-  left: calc(50% + 56px);
-  transition: 0.7s;
-}
-
-.main .container {
-  position: relative;
-}
-
-.content .welcome .main .welcome {
-  top: 0;
-  left: 0;
-  opacity: 1;
-  transition: 0.7s;
-}
-
-.content .welcome .main .register {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: 0.7s;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 1s;
 }
 
 .main .title {
@@ -167,40 +148,4 @@ body {
   letter-spacing: -0.45px;
   text-align: center;
   background-color: #0000;
-}
-
-/* -- register -- */
-.content .register .hero_image {
-  position: absolute;
-  top: 136px;
-  left: 540px;
-  transform: translateX(-100%);
-  width: 900px;
-  height: 884px;
-  object-fit: contain;
-  opacity: 0.2;
-  transition: 0.7s;
-}
-
-.register .main {
-  position: absolute;
-  top: 342px;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: 0.7s;
-}
-
-.content .register .main .welcome {
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: 0.7s;
-}
-
-.content .register .main .register {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  transition: 0.7s;
 }
