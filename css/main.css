@@ -24,18 +24,23 @@ nav {
     font-weight: 700;
 }
 
-
-
-#back_container {
+#main_back1 {
     flex: 1;
     box-sizing: border-box;
     width: 100%;
     padding: 0px 20px 20px 20px;
 }
 
-#main_container {
-    min-height: 100%;
+#main_back2 {
+    height: 100%;
     background-color: #f9fafb;
+}
+
+#topic_container {
+    width: 900px;
+    height: 100%;
+    margin: auto;
+
 }
 
 
