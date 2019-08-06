@@ -8,10 +8,10 @@ html, body {
 }
 
 .title {
-  margin-left: 60px;
-  margin-top: 45px;
   width: 144px;
   height: 28px;
+  margin-left: 60px;
+  margin-top: 45px;
   font-family: CenturyGothicPro;
   font-size: 28px;
   font-weight: bold;
@@ -21,14 +21,68 @@ html, body {
 
 .menu {
   float: right;
-  margin-top: 5px;
-  margin-right: 5px;
 }
 
 .menu_btn {
-  border: 0;
-  font-weight: bold;
+  height: 20px;
   background: white;
-  margin: 3px;
-  padding: 0;
+  border: 0;
+  font-family: CenturyGothicPro;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.06px;
+  text-align: right;
+  color: #d9d9d9;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+#signup {
+  color: #EC0A4C;
+}
+
+.step {
+  margin-top: 143px;
+  margin-left: 56px;
+}
+
+.step{
+}
+
+.step1-3 {
+  width: 80px;
+  height: 16px;
+  font-family: CenturyGothicPro;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.05px;
+  color: #999999;
+}
+
+.tell_me {
+  display: block;
+  font-family: SpoqaHanSans;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: -0.13px;
+  color: #444444;
+}
+
+.sub_text {
+  width: 506px;
+  height: 84px;
+  font-family: SpoqaHanSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: -0.05px;
+  color: #999999;
 }
