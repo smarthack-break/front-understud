@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>session</title>
+
+    <link rel="stylesheet" href="css/session.css">
+</head>
+
+<body>
+    <div id="title_container">
+        <span id="logo"><span style="color: red">UNDER</span>STUD<span style="color: red">.</span></span>
+    </div>
+
+
+    <div id="main_container">
+        <div id="topic_container">
+            <img id="session_image" src="./img/html.jpg"></img>
+            <div id="article_container">
+                <div id="article_desc">
+                    <h2 id="article_title">글자만 있으면 재미 없잖아요</h2>
+                    <h3 id="article_sub_title">HTML5로 웹에 이미지를 넣는 다양한 방법</h3>
+                    <h3 id="article_author">by 이태윤</h3>
+                </div>
+                <div id="session_article">
+                    <h3>
+                        WWW의 발명으로 인간은 지금까지의 정보 교류를 넘어서 더 많은 정보를 빠르고 효율적으로 나눌 수 있게 되었습니다. 덕분에 지금까지와는 다른 빠른 발전을 도모할 수
+                        있었지만, 항상 인간의 욕심은 끝이 없기 마련입니다. 항상 세 줄 이상 넘어가면 글을 읽기가 귀찮아지고, 금새 다른 페이지로 도망가곤 합니다. 그래서 사람들은 웹에 이미지를
+                        넣을 다양한 방법을 고안합니다. 정석적인 img 태그부터, img 태그와 같은듯 다른 picture 태그 등. 비슷한듯 다른 여러 기능들을 알아보며 웹을 꾸며봅시다.
+                    </h3>
+
+                    <div id="code_block">
+                        <pre>
+
+    &#60;img src="img.jpg" alt=“this is image”&#62;<br>
+        &#60;picture&#62;<br>
+        &#60;source<br>
+            media="(min-width: 650px)"<br>
+            srcset="images/kitten-stretching.png"&#62;<br>
+        &#60;source<br>
+            media="(min-width: 465px)"<br>
+            srcset="images/kitten-sitting.png"&#62;<br>
+        &#60;img<br>
+            src="images/kitten-curled.png"<br>
+            alt="a cute kitten"&#62;<br>
+    &#60;/picture&#62;
+                        <pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="topic_sidebar">
+            <div id="session_navigation">
+                <h2 id="session_track">HTML5</h2>
+                <h2 id="session_title">글자만 있으면<br>재미 없잖아요</h2>
+                <h3 id="session_sub_title">HTML5로 웹에<br>이미지를 넣는 다양한 방법</h3>
+                <h3 id="session_author">by 이태윤</h3>
+                <hr>
+                <div id="thumb_container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 30 30" class="thumb">
+                            <g fill="none" fill-rule="evenodd">
+                                <path d="M-1-2h32v32H-1z" opacity=".87"/>
+                                <path fill="#D7D8D9" fill-rule="nonzero" d="M16.493.747L9.107 8.133a2.664 2.664 0 0 0-.774 1.88v13.32C8.333 24.8 9.533 26 11 26h12c1.067 0 2.027-.64 2.453-1.613L29.8 14.24c1.12-2.64-.813-5.573-3.68-5.573h-7.533l1.266-6.107a2.01 2.01 0 0 0-.546-1.827 1.984 1.984 0 0 0-2.814.014zM3 26c1.467 0 2.667-1.2 2.667-2.667V12.667C5.667 11.2 4.467 10 3 10a2.675 2.675 0 0 0-2.667 2.667v10.666C.333 24.8 1.533 26 3 26z"/>
+                            </g>
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 30 30" class="thumb">
+                            <g fill="none" fill-rule="evenodd">
+                                <path d="M0-3h30v30H0z" opacity=".87"/>
+                                <path fill="#D7D8D9" fill-rule="nonzero" d="M13.6 24.425l6.912-6.925c.463-.462.726-1.1.726-1.762V3.25c0-1.375-1.125-2.5-2.5-2.5H7.5c-1 0-1.9.6-2.287 1.513l-4.075 9.512C.075 14.25 1.888 17 4.575 17h7.062l-1.187 5.725a1.885 1.885 0 0 0 .513 1.712 1.86 1.86 0 0 0 2.637-.012zM26.25.75a2.507 2.507 0 0 0-2.5 2.5v10c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5v-10c0-1.375-1.125-2.5-2.5-2.5z"/>
+                            </g>
+                        </svg>
+                </div>
+
+            </div>
+
+            <button id="session_out">세션 마치기</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
