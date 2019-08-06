@@ -6,12 +6,10 @@
   <title>Understud.</title>
   <link rel="stylesheet" href="css/welcome.css">
   <link rel="stylesheet" href="css/reset.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
 </head>
 
 <body>
+
   <header id="header" class="header background_white">
     <div class="wrapper">
       <h1 class="header_logo">
@@ -26,7 +24,7 @@
   </header>
 
   <div class="content">
-    <div class="register">
+    <div  id="selector" class="welcome">
       <img class="hero_image" src="picture.png" alt="hero image" width="100%" height="100%">
       <main id="main" class="main">
         <div class="container">
@@ -36,7 +34,7 @@
             <div class="subtext">시간이 흘러, 이렇게나 발전한 세상이 되었음에도,<br>
             막상 무언가를 배우고자 하면 어려움이 많을 때가 있습니다.</div>
             <div class="button">
-              <button class="btn_bg" onclick="location.href ='register_1.html';" type="button" name="button">시작 해 볼까요?</button>
+              <button id="btn" class="btn_bg">시작 해 볼까요?</button>
               <button class="btn_join" type="button" name="button">저도 참여하고 싶어요!</button>
             </div>
           </div>
@@ -55,6 +53,9 @@
       </main>
     </div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/js/welcome.js"></script>
 </body>
 
 </html>
