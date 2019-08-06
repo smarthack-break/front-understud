@@ -52,9 +52,10 @@ body {
 
 #session_list {
     position: relative;
-    height: 300px;
+    height: 305px;
     background-color: #f9fafb;
     padding: 20px;
+    /* margin-bottom: 15px; */
 }
 
 #session_list_title {
@@ -83,7 +84,7 @@ body {
     border: none;
     padding: 0px;
     /*수정바람*/
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 .session_img {
@@ -96,7 +97,6 @@ body {
 .session_desc_container {
     position: relative;
     height: 120px;
-    margin-top: -5px;
     background-color: #f9fafb;
 }
 
