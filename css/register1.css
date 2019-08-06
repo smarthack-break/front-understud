@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.title, .start, .join {
+  display: inline-block;
+}
+
+.title {
+  margin-left: 60px;
+  margin-top: 45px;
+  width: 144px;
+  height: 28px;
+  font-family: CenturyGothicPro;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.09px;
+  color: #eb124d;
+}
+
+.menu {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.menu_btn {
+  border: 0;
+  font-weight: bold;
+  background: white;
+  margin: 3px;
+  padding: 0;
+}
