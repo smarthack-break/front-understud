@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    background-color: #f9fafb;
+}
+
+h2, h3,pre {
+    margin: 0px;
+}
+
+#title_container {
+    position: relative;
+    min-height: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#main_container {
+    display: grid;
+    width: 1400px;
+    /*수정바람*/
+    height: 960px;   
+    margin: auto;
+    grid-template-columns: 1fr 240px;
+}
+
+#topic_container {
+    margin-right: 20px;
+    background-color: white;
+    overflow: scroll;
+}
+
+#session_image {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+#article_container {
+    padding: 48px;
+    transform: translateY(-5px);
+}
+
+#article_desc {
+    height: 150px;
+}
+
+#article_title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#article_sub_title {
+    font-size: 20px;
+    color: #727273;
+    font-weight: 300;
+}
+
+#article_author {
+    color: #eb124d;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 900;
+}
+
+#code_block {
+    margin-top: 20px;
+    background-color: #f9fafb;
+}
+
+#code_block pre{
+    color: #727273;
+    font-size: 20px;
+}
+
+#session_article h3{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+#session_navigation {
+    height: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#session_track,
+#session_title,
+#session_sub_title,
+#session_author,
+hr{
+    margin-bottom: 20px;
+}
+
+#session_track {
+    font-size: 16px;
+    color: #727273;
+
+}
+
+#session_title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#session_sub_title {
+    font-size: 16px;
+    color: #727273;
+    line-height: 24px;
+}
+
+#session_author {
+    color: #eb124d;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+#thumb_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.thumb {
+    margin: auto;
+}
+
+
+#session_out {
+    width: 100%;
+    height: 96px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    background-color: #3f3f40;
+}
+
